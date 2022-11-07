@@ -10,7 +10,12 @@ body {
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway"; /* Google Fonts - title font */
   font-weight: 300;
   color: #333;
@@ -23,7 +28,7 @@ p {
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 /* Links */
@@ -54,7 +59,7 @@ a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -67,76 +72,70 @@ a:after {
 /*Navigation Bar///*/
 /*///////////////////*/
 
-
-
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(6, 60, 77, 0.4);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(6, 60, 77, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #f2f2f2;
-    display: block;
-    transition: 0.3s;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #f2f2f2;
+  display: block;
+  transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: rgb(38, 137, 168);
+  color: rgb(38, 137, 168);
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 #main {
-    transition: margin-left .5s;
+  transition: margin-left 0.5s;
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
-
 
 /* Expanding image text */
 #imgtext {
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
 }
 
- Closable button inside the image */
-.closebtn {
-    position: absolute;
-    top: 10px;
-    right: 15px;
-    color: white;
-    font-size: 35px;
-    cursor: pointer;
+Closable button inside the image */ .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
 }
-
-
-
-
-
-
 
 /*---------------------------------------------------
   SECTION WRAPS
@@ -144,14 +143,15 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: url(../images/IMG_4299.JPG) no-repeat center top ,linear-gradient(black,black);
-  padding-top:140px;
-  text-align:center;
+  background: url(../images/IMG_4299.JPG) no-repeat center top,
+    linear-gradient(black, black);
+  padding-top: 20em;
+  text-align: center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 500px;
+  min-height: 46em;
   width: 100%;
-  
+
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
@@ -166,7 +166,7 @@ a:after {
 .header h1 {
   font-size: 80px;
   color: white;
- /*background: rgba(0,0,0,0.2);*/
+  /*background: rgba(0,0,0,0.2);*/
 }
 
 .header h3 {
@@ -184,16 +184,17 @@ a:after {
   padding-top: 60px;
   padding-bottom: 60px;
   color: white;
-} 
+}
 
-.about h5, p {
+.about h5,
+p {
   color: white;
 }
 
 .about i {
   color: white;
-  font-size: 20px;
-  padding-right: 8px;
+  font-size: 1.25em;
+  padding-right: 0.5vw;
   vertical-align: middle;
 }
 
@@ -217,7 +218,7 @@ a:after {
 
 /* social icons: */
 .footer i {
-  padding-right: 8px;
+  padding-right: 0.5vw;
   /*color: #1abc9c;*/
 }
 
@@ -245,7 +246,6 @@ a:after {
 .desc more {
   color: #616669;
 }
-
 
 sm {
   font-size: 12px;
@@ -278,11 +278,11 @@ body {
 
 @-webkit-keyframes fadeIn {
   0% {
-    opacity: 0; 
+    opacity: 0;
   }
 
   100% {
-    opacity: 1; 
+    opacity: 1;
   }
 }
 
@@ -313,7 +313,7 @@ body {
 
   100% {
     opacity: 1;
-  } 
+  }
 }
 
 .fadeIn {
@@ -377,4 +377,4 @@ body {
   -moz-animation-name: fadeInUp;
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  }
+}
