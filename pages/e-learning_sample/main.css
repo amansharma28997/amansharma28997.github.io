@@ -1,0 +1,142 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+}
+.index{
+    background-color: black;
+    color: white;
+}
+
+.bg {
+        background:
+        url('https://images.unsplash.com/reserve/wi9yf7kTQxCNeY72cCY6_Images%20of%20Jenny%20Lace%20Plasticity%20Publish%20(4%20of%2025).jpg?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c65e083dd5d4c3fb3208ea301c63e30&auto=format&fit=crop&w=500&q=60')
+        no-repeat;
+        
+        background-size: cover;
+        background-position: centre;
+}
+
+
+.abc{
+    height: 30px;
+}
+.dropdown ul {
+    
+    text-align: center;
+    background-color:#2C3E50;
+}
+
+.dropdown ul li a{
+    color: #ddd;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown ul li a:hover{
+    background-color: #16A085;
+    
+}
+#sidebar-wrapper{
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #2C3E50;
+    opacity: 0.7; 
+    text-align: center;
+
+}
+
+#page-content-wrapper{
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+
+#wrapper.menuDisplayed #sidebar-wrapper{
+     width: 250px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 1s, height 1s, transform 1s;
+   
+}
+
+
+#wrapper.menuDisplayed #page-content-wrapper{
+
+    padding-left: 250px;
+
+}
+
+.sidebar-nav{
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li{
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a{
+    display: block;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.sidebar-nav li a:hover{
+    background: #16A085;
+}
+
+ul li{
+    text-align: left;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+}
+
+ul li a:hover{
+ background: #16A085;   
+}
+
+ul li ul li{
+    display: none;
+}
+
+ul li:hover ul li{
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+
+    display: block;
+}
+
+video{
+    margin-left: 150px;
+}
+
+.heading{
+    color: black;
+    margin-top: 15vh;
+}
+.form-container {
+    color: black;
+    border: 0px solid;
+    padding: 50px 60px;
+    margin-top:0;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+}
+input{
+    color: black;
+}
